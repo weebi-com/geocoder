@@ -1,0 +1,11 @@
+# simple geocoder
+
+a simple program to find object coordinates
+
+## how to use
+create a csv file like test.csv 
+keep object id in the first column
+only use localization fields in the other columns
+latitude and longitude they will be appended in the output.csv
+
+run ruby main.rb
