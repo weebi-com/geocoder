@@ -1,4 +1,4 @@
 require './find'
 
 find = FindCoordinates.new
-find.checkAndPopulateCoordinates("test.csv")
+find.checkAndPopulateCoordinates("input.csv")

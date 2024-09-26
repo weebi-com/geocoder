@@ -77,7 +77,7 @@ class FindCoordinates
 
 
     def fetch_coordinates(location_elements)
-        puts "Processing location_query #{location_elements.inspect} ..."
+        puts "Processing location_query #{location_elements.inspect}"
         begin
           result = Geocoder.search(location_elements).first
           return result&.coordinates if result&.coordinates.nil? == false

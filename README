@@ -3,9 +3,17 @@
 a simple program to find object coordinates
 
 ## how to use
-create a csv file like test.csv 
+create a csv file like test.csv
 keep object id in the first column
 only use localization fields in the other columns
 latitude and longitude they will be appended in the output.csv
 
-run ruby main.rb
+put the filename in main.rb then run :
+
+ruby main.rb
+
+## note
+the location query is printed in the console to double check
+the output file is written line by line so all is not kept in memory
+1sec sleep constraint to avoid overflowing the api
+works for file with +100k lines and around 10Mo 
