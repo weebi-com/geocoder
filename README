@@ -3,10 +3,14 @@
 a simple program to find object coordinates
 
 ## how to use
-create a csv file like test.csv
+
+install ruby
+run : gem install geocoder
+
+create a input.csv file
 keep object id in the first column
 only use localization fields in the other columns
-latitude and longitude they will be appended in the output.csv
+latitude and longitude fields will be appended in the output.csv
 
 put the filename in main.rb then run :
 
